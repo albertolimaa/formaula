@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<header>
+    <h1>Formulário</h1>
+</header>
+<body>
+    <main>
+    <form>
+        <fieldset>
+            <legend>Dados:</legend>
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" value="Doe"><br>
+            <label for="nascimento">Data de Nascimento</label>
+            <input type="date" id="nascimento" name="nascimento" value="05/03/2025"><br>
+            <label for="Turma">Turma:</label>
+            <input type="text" id="Turma" name="Turma" value="ESCN"><br>
+            <label for="periodo">Período:</label>
+            <input type="text" id="periodo" name="periodo" value="Noturno"><br>
+            <input type="submit" value="Submit">
+          </fieldset>
+
+<label for="lingprog">Escolha sua linguagem de programação</label>
+    <select id="lingprog" name="lingprog">
+        <option value="">Selecione</option>     
+        <option value="HTML">HTML</option>
+        <option value="CSS">CSS</option>
+        <option value="JavaScript">JavaScript</option>
+    </select><br>
+    <fieldset>
+        <legend>Questão 1</legend>
+        <input type="radio" id="q1ra" name="q1">
+        <label for="q1ra">A</label>
+        <input type="radio" id="q1rb" name="q1">
+        <label for="q1rb">B</label>
+        <input type="radio" id="q1rc" name="q1">
+        <label for="q1rc">C</label>
+    </fieldset>
+    <label for="ch_aceito">Aceito termos</label>
+    <input type="checkbox" id="ch_aceito" name="ch_aceito"><br>
+    <textarea name="message" rows="10" cols="44"></textarea>
+    </form>
+</main>
+</body>
+</html>
